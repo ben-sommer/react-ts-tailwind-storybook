@@ -6,7 +6,7 @@ const App = () => (
       <h1 className="text-2xl text-blue-700 leading-tight mb-4">
         Create React App, Tailwind & Storybook
       </h1>
-      <p className="text-base text-xl leading-normal">Documentation</p>
+      <p className="text-xl leading-normal">Documentation</p>
       <ul className="list-disc list-inside text-gray-700 underline mb-4">
         <li>
           <a href="https://reactjs.org/">React</a>
