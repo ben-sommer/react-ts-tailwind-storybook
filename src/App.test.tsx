@@ -3,8 +3,8 @@ import React from 'react';
 
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders links to docs', () => {
   const { getByText } = render(<App />);
-  const title = getByText(/Tailwind and Create React App/i);
+  const title = getByText(/Create React App, Tailwind & Storybook/i);
   expect(title).toBeInTheDocument();
 });
