@@ -4,9 +4,9 @@
 
 # Implementation Details
 
-Template CRA PWA, with TS, using Tailwind.css and customized CI/CD environment.
+Template CRA PWA, with TS and Storybook, using Tailwind.css and customized CI/CD environment.
 
-You can find all the relevant details about what is included in this repo here: [Template Details](https://www.notion.so/kiilysden/React-TS-PWA-0ff8c6be6ae249bbbf3baebcf54703d9)
+You can find all the relevant details about what is included in this repo here: [Template Details](https://www.notion.so/React-TS-Tailwind-Storybook-5399988ff05e4ad998f4013fa4d87c50)
 
 # Getting started:
 
@@ -64,3 +64,14 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+### `yarn storybook`
+
+Runs the Storybook in the development mode.<br />
+Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
+
+The page will update if you make edits.
+
+### `yarn build-storybook -o [directory]`
+
+Builds the Storybook to a static website in the specified `[directory]`
