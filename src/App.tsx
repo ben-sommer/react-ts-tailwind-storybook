@@ -1,5 +1,3 @@
-import './App.scss';
-
 import React from 'react';
 
 const App = () => (
@@ -9,7 +7,7 @@ const App = () => (
         Create React App, Tailwind & Storybook
       </h1>
       <p className="text-base text-xl leading-normal">Documentation</p>
-      <ul className="list-disc list-inside text-gray-700 underline">
+      <ul className="list-disc list-inside text-gray-700 underline mb-4">
         <li>
           <a href="https://reactjs.org/">React</a>
         </li>
